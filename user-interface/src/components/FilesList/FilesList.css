@@ -1,0 +1,37 @@
+.FilesList {
+    margin-top: 7%;
+    border-top: 1px solid grey;
+}
+
+.MuiSvgIcon-root{
+    cursor: pointer;
+    padding-right: 10px;
+}
+.EditIcon .MuiSvgIcon-root:hover{
+    color: green;
+}
+
+.DeleteIcon .MuiSvgIcon-root:hover{
+    color: red;
+}
+
+.nofiles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    font-size: 18px;
+}
+
+.MuiTableCell-head {
+    font-weight: 600 !important;
+    color:rgb(68, 68, 68) !important
+}
+
+.MuiTableCell-root {
+    font-size: 15px !important;
+}
+
+#simple-editor-container div:first-child{
+    display: none;
+}
